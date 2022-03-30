@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .card {
+        margin: 25px 15px;
+        padding: 25px 15px;
+
+        /* border: 2px solid hotpink; */
+        background-color: hotpink;
+
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: 10px 15px plum; */
+        /* box-shadow: -10px -15px plum;
+
+         /* box-shadow: offset-x offset-y blur-radius color; */
+        /* box-shadow: -10px -15px 5px;
+        box-shadow: 10px 15px 25px; */
+
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+       /* box-shadow: 10px 15px 10px 5px palevioletred; */
+        box-shadow: inset 3px 5px white;
+        box-shadow: 3px 5px white, 4px 6px orchid;
+    }
+    .card h2{
+       /* text-shadow: 2px 4px white; */
+        text-shadow: 2px 4px whitesmoke;
+        /* text-shadow: -2px -4px white; */ 
+    }
+</style>
+
+<body>
+    <div class="container"></div>
+    <div class="card" id="card-1">
+        <h2>This is C++ course</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore neque cumque accusamus dolorem,
+            amet id, voluptatem ducimus nemo ut quaerat vel sit, quasi nobis odit corporis eum magnam beatae.</p>
+    </div>
+    <div class="card" id="card-2">
+        <h2>This is HTML course</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore neque cumque accusamus dolorem,
+            amet id, voluptatem ducimus nemo ut quaerat vel sit, quasi nobis odit corporis eum magnam beatae.</p>
+    </div>
+    <div class="card" id="card-3">
+        <h2>This is JAVA course</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore neque cumque accusamus dolorem,
+            amet id, voluptatem ducimus nemo ut quaerat vel sit, quasi nobis odit corporis eum magnam beatae.</p>
+    </div>
+</body>
+
+</html>
