@@ -23,13 +23,13 @@
         }
 
         a[target] {
-            font-size: 44px;
+            font-size: 30px;
             color: violet;
         }
 
         a[target='_self'] {
-            font-size: 14px;
-            color: rgb(13, 22, 151);
+            font-size: 30px;
+            color:rgb(151, 13, 89);
         }
 
         input[type='email'] {
@@ -45,9 +45,11 @@
     li:nth-child(2n+0){
         color: red;
     } */
+    
+    /* This will apply CSS for third child */
 
         li:nth-child(3n+3) {
-            color: red;
+            color: rgb(39, 22, 138);
         }
 
         /* Odd child */
@@ -57,7 +59,8 @@
 
         /* Even child */
         li:nth-child(even) {
-            background-color: yellow;
+            /* background-color: yellow; */
+            color: hotpink;
         }
     </style>
 </head>
@@ -65,7 +68,9 @@
 <body>
     <div class="container">
         <h1><a href="http://google.com" target="_blank">Go to google</a></h1>
+        
         <h1><a href="http://facebook.com" target="_self">Go to Facebook</a></h1>
+    
         <form action="" class="form-control">
             <input type="text" placeholder="Enter your name">
             <input type="email" placeholder="Enter your email">
