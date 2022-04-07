@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid: Creating Layouts Using Grid Template Area</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap:2rem;
+            grid-template-areas:
+            'navbar navbar navbar navbar' 
+            'section section section aside'
+            'footer footer footer footer';
+        }
+
+        .item{
+            background-color: yellow;
+            border: 3px solid green;
+            padding: 10px;
+        }
+
+        #navbar{
+            grid-area:navbar;
+        }
+
+        #section{
+            grid-area:section;
+        }
+
+        #aside{
+            grid-area:aside;
+        }
+
+        footer{
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+
+            Home About Contact Us 
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia magnam sapiente saepe eum voluptas, commodi assumenda autem maxime quaerat tempore sit fuga iste laboriosam minus!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptas esse soluta labore, cupiditate reprehenderit exercitationem, magnam modi a, voluptate sunt neque consectetur quo? Necessitatibus?
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut esse alias asperiores eveniet unde laboriosam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus, veritatis iusto, nesciunt fuga maiores placeat consectetur magnam iure, hic et nostrum. Necessitatibus veritatis sequi, numquam quas nesciunt molestiae libero at dolore?
+        </div>
+        <footer class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis corrupti perferendis id nostrum quas et hic placeat dignissimos, iure tempore atque non saepe asperiores.</footer>
+    </div>
+</body>
+</html>
