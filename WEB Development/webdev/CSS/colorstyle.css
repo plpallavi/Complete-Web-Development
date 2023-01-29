@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: aqua;
+    color: black;
+}
+.green{
+    background-color: red;
+    color: blue;
+}

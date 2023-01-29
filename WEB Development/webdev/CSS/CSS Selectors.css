@@ -1,0 +1,22 @@
+body{
+    background-color: yellowgreen;
+}
+h1,h2,h3{
+    color: brown;
+}
+p{
+    color: yellow;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+.red{
+    background-color: blue;
+    color: white;
+}
+
+/* p.red{
+    color: aqua;
+} */

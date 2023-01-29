@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+#first{
+    background-color: rgb(255, 240, 240);
+}
+.bg-blue{
+    background-color: blueviolet;
+}
