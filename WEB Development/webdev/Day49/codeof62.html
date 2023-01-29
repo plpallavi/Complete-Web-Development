@@ -9,20 +9,24 @@
     <div class="container">This is my container</div>
     <script>
         let jsonObj = {
-            name: "Harry",
-            channel: "CWH",
-            friend: "Rohan Das",
-            food: "Bhindi" //#bhindiLoverSquad
+            name: "Pallavi",
+            profession: "Student",
+            friend: "Nishant",
+            food: "Dosa"
         } 
         console.log(jsonObj);
+        //To convert valid Json object into String (Stringify)
         let myJsonStr = JSON.stringify(jsonObj);
         console.log(myJsonStr);
 
-        myJsonStr = myJsonStr.replace('Harry', 'Larry');
-        console.log(myJsonStr)
-
+        //To replace anything(basically used all string function)
+        myJsonStr = myJsonStr.replace('Pallavi', 'Saloni');
+        consle.log(myJsonStr);
+        
+        //To convert valid Json string into object(parse)
         newJsonObj = JSON.parse(myJsonStr);
-        console.log(newJsonObj)
+        console.log(newJsonObj);
+
 
         
 
