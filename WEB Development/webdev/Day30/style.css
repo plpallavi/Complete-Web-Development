@@ -199,12 +199,12 @@ html{
     font-size: 1.2rem;
     font-family: cursive;
 }
+
 footer{
     background: hotpink;
     color: black;
     padding: 10px 20px;
 }
-
 /*Utility Classes */
 .h-primary {
     font-size: 3.8rem;
