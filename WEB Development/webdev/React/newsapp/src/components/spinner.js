@@ -7,9 +7,9 @@
 //    // render() {
 //         return (
 //             <div className="text-center">
-//                 <img src={spinner} alt="spinner" />
+//                 <img className="my-3" src={spinner} alt="spinner" />
 //             </div>
 //         )
-//     }
+//    // }
 // //}
 // export default spinner
